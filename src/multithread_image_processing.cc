@@ -1,14 +1,17 @@
 #include <condition_variable>
 #include <mutex>
 #include <opencv2/opencv.hpp>
+#include <pybind11/pybind11.h>
 #include <queue>
 #include <thread>
+
+namespace py = pybind11;
 
 // queues for consumer producer model.
 std::queue<cv::Mat> capture_Queue;
 std::queue<cv::Mat> process_Queue;
 
-// mutex locks for 
+// mutex locks for
 std::mutex capture_Mutex;
 std::mutex process_Mutex;
 
@@ -19,7 +22,7 @@ bool done = false;
 
 void captureImage() {
   // Open default camera @ id = 0
-  cv::VideoCapture cap(0); 
+  cv::VideoCapture cap(0);
   cv::Mat frame;
   // Return error if camera is not opened.
   if (!cap.isOpened()) {
@@ -63,13 +66,12 @@ void processImage() {
 
     cv::Mat processedFrame;
     // Converting the image to grayscale.
-    cv::cvtColor(frame, processedFrame,
-                 cv::COLOR_BGR2GRAY);
+    cv::cvtColor(frame, processedFrame, cv::COLOR_BGR2GRAY);
 
     {
       std::lock_guard<std::mutex> lock(process_Mutex);
       process_Queue.push(processedFrame);
-    }// The lock_guard is released as soon as it goes out of scope.
+    } // The lock_guard is released as soon as it goes out of scope.
 
     process_CondVar.notify_one();
   }
@@ -100,11 +102,12 @@ void displayImage() {
   }
 }
 
-int main() {
+int pipeline_function() {
+
   std::thread captureThread(captureImage);
   std::thread processThread(processImage);
   std::thread displayThread(displayImage);
-  
+
   // Join all the threads
   captureThread.join();
   processThread.join();
@@ -112,3 +115,21 @@ int main() {
 
   return 0;
 }
+
+PYBIND11_MODULE(image_pipeline, m) {
+  m.doc() = R"pbdoc(
+            PyBind11 binding for multithreaded image processing and display function
+            ------------------------------------------------------------------------
+            
+            .. currentmodule: binder_function
+
+            .. autosummary::
+               :toctree: _generate
+
+               Runs a multithreaded image pipeline which takes an input, processes (grayscaling) and displays the processed image using opencv functions
+  )pbdoc";
+
+  m.def("image_pipeline", &pipeline_function, "core image pipeline function");
+}
+
+int main() { pipeline_function(); }
