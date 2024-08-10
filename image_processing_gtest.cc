@@ -23,7 +23,7 @@ void mockCaptureImage(cv::Mat frame) {
         std::lock_guard<std::mutex> lock(captureMutex);
         captureQueue.push(frame);
     }
-    captureCondVar.notify_one();
+    captureCondVar.notify_all();
 }
 
 void mockProcessImage() {
@@ -62,6 +62,32 @@ cv::Mat mockDisplayImage() {
     }
 
     return frame;
+}
+// Unit Tests
+// CaptureTest suite pertains to capture queue and input functions.
+TEST(CaptureTest, CaptureQueueNotEmptyAfterCapture) {
+    cv::Mat testFrame = cv::Mat::zeros(100, 100, CV_8UC3);  // Mock frame
+    mockCaptureImage(testFrame);
+
+    std::lock_guard<std::mutex> lock(captureMutex);
+    EXPECT_FALSE(captureQueue.empty());
+}
+
+TEST(ProcessTest, FrameIsProcessedCorrectly) {
+    // generate a white frame
+    cv::Mat testFrame = cv::Mat::ones(100, 100, CV_8UC3) * 255;  
+    // placeholder frame
+    cv::Mat expectedFrame;
+    // convert the test frame to grayscale and store it in expectedFrame
+    cv::cvtColor(testFrame, expectedFrame, cv::COLOR_BGR2GRAY);
+
+    mockCaptureImage(testFrame);
+    mockProcessImage();
+
+    std::lock_guard<std::mutex> lock(processMutex);
+    cv::Mat processedFrame = processQueue.front();
+
+    EXPECT_EQ(cv::countNonZero(processedFrame == expectedFrame), 0);
 }
 
 int main(int argc, char **argv) {
