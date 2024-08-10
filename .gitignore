@@ -1,0 +1,6 @@
+pybind11
+task_list.md
+build
+venv_1
+dist
+*.egg*
