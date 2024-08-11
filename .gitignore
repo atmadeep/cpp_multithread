@@ -4,3 +4,4 @@ build
 venv_1
 dist
 *.egg*
+*.bak
