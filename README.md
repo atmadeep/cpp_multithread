@@ -28,8 +28,8 @@ g++ -std=c++14 -pthread -o image_pipeline_test image_processing_gtest.cc `pkg-co
 # Building the python binding
 
 ```bash
-cd build/
-cmake ../
+mkdir build && cd build/
+cmake -DBUILD_PYTHON_MODULE=ON ../
 make
 
 cd ..
@@ -38,7 +38,3 @@ pip install dist/image_pipeline*.whl
 ```
 
 This will install the wheel file in your virtual environment.
-
-### Known issues:
-
-Currently, both the binary and built pybind11 module may stop responding upon pressing `ESC`. Use `CTRL+C` in the terminal to exit the app.
