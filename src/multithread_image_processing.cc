@@ -96,15 +96,12 @@ void displayImage() {
     }
 
     cv::imshow("Processed Image", frame);
-    int k = cv::waitKey(1);
-    if (k == 27) { // Exit on ESC key
+    if ( cv::waitKey(1) == 27) { // Exit on ESC key
       done = true;
       break;
+      cv::destroyAllWindows();
     }
   }
-  // INFO in order to deal with display windows being stuck upon pressing 'ESC'.
-  cv::destroyAllWindows();
-  cv.waitKey(1);
 }
 
 int pipeline_function() {
