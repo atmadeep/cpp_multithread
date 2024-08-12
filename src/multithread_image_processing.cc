@@ -81,6 +81,7 @@ void processImage() {
 }
 
 void displayImage() {
+  int k =0;
   while (!done) {
     cv::Mat frame;
 
@@ -96,12 +97,14 @@ void displayImage() {
     }
 
     cv::imshow("Processed Image", frame);
-    if ( cv::waitKey(1) == 27) { // Exit on ESC key
+    int k = cv::waitKey(1);
+    if ( k == 27) { // Exit on ESC key
       done = true;
       break;
-      cv::destroyAllWindows();
     }
   }
+  cv::destroyAllWindows();
+  cv::waitKey(1);
 }
 
 int pipeline_function() {
