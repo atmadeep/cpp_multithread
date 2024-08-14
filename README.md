@@ -21,8 +21,8 @@
 
 ```bash
 mkdir build && cd build
-cmake -DBUILD_PYTHON_MODULE=ON ..
-make
+cmake -DBUILD_PYTHON_MODULE=ON --build ..
+make all
 ```
 
 - Install the python module
