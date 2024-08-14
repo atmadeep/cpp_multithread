@@ -36,3 +36,19 @@ cmake -DBUILD_PYTHON_MODULE=ON ..
   - ```bash
     pytest bin
     ```
+
+
+
+# Running the code
+
+- To run the C++ binary
+
+  - ```bash
+    cd build/bin
+    ./image_pipeline_app
+    ```
+- To run the python module package:
+
+  - ```bash
+    python3 bin/run_image_pipeline.py
+    ```

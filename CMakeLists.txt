@@ -29,3 +29,6 @@ add_subdirectory(python_bindings)
 
 message(STATUS "Copying image_pipeline_test.py to build/bin directory")
 file(COPY ${CMAKE_SOURCE_DIR}/src/tests/python/test_image_pipeline.py DESTINATION ${CMAKE_BINARY_DIR}/bin)
+
+message(STATUS "Copying run_image_pipeline.py to build/bin directory")
+file(COPY ${CMAKE_SOURCE_DIR}/src/python/run_image_pipeline.py DESTINATION ${CMAKE_BINARY_DIR}/bin)
