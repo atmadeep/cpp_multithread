@@ -138,9 +138,8 @@ PYBIND11_MODULE(image_pipeline, m) {
 
   m.def("pipeline_func", &pipeline_function, "core image pipeline function");
 }
-#else
+#endif
 int main() {
   pipeline_function();
   return 0;
 }
-#endif

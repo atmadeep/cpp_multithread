@@ -2,39 +2,37 @@
 
 1. Create a python3 virtual environment in the source directory.
 2. Activate the virtual environemt (e.g. source path_to_venv/bin/activate)
+3. Install `pytest`
+   1. ```bash
+      python3 -m pip install pytest
+      ```
 
 ---
 
-# Building the standalone binary and unit tests
-
-### Building the binary
+# Building
 
 ```bash
-cd src/
-g++ -std=c++14 -pthread -o image_pipeline multithread_image_processing.cc `pkg-config --cflags --libs opencv4`
-./image_pipeline
+mkdir build && cd build
+cmake -DBUILD_PYTHON_MODULE=ON ..
 ```
 
-### Building the tests
+- Install the python module
+  - Change into project root directory
+  - ```bash
+    python3 setup.py install
+    ```
 
-Currently, support for building the gtest file with CMake is not added.
+    - This will install the python module in your environment
 
-```bash
-cd src/
-g++ -std=c++14 -pthread -o image_pipeline_test image_processing_gtest.cc `pkg-config --cflags --libs opencv4` /usr/lib/x86_64-linux-gnu/libgtest.a 
-./image_pipeline_test
-```
+# Testing
 
-# Building the python binding
+- Run gtests
 
-```bash
-mkdir build && cd build/
-cmake -DBUILD_PYTHON_MODULE=ON ../
-make
+  - ```bash
+    gtester bin/image_pipeline_test
+    ```
+- Run python tests
 
-cd ..
-python3 setup.py bdist_wheel
-pip install dist/image_pipeline*.whl
-```
-
-This will install the wheel file in your virtual environment.
+  - ```bash
+    pytest bin
+    ```
