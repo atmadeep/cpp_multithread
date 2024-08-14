@@ -5,3 +5,4 @@ venv_1
 dist
 *.egg*
 *.bak
+**/__pycache__*
