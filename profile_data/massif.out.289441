@@ -1,0 +1,1379 @@
+desc: (none)
+cmd: ./image_pipeline_app
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=208702144
+mem_heap_B=1984
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=260937526
+mem_heap_B=4374796
+mem_heap_extra_B=903908
+mem_stacks_B=0
+heap_tree=detailed
+n7: 4374796 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1650720 0xEEF7734: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1650720 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1650720 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1650720 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1650720 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1650720 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1650720 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1650720 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 1547816 0xEEF7E53: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1547816 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1547816 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1547816 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1547816 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1547816 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1547816 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1547816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n5: 716708 0xEEF79EC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 248249 0xEEF7554: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 248249 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 248249 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 248249 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+      n1: 248249 0x4011B99: call_init.part.0 (dl-init.c:72)
+       n1: 248249 0x4011CA0: call_init (dl-init.c:30)
+        n1: 248249 0x4011CA0: _dl_init (dl-init.c:119)
+         n0: 248249 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+  n1: 202664 0xEEF757E: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 202664 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 202664 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 202664 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+      n1: 202664 0x4011B99: call_init.part.0 (dl-init.c:72)
+       n1: 202664 0x4011CA0: call_init (dl-init.c:30)
+        n1: 202664 0x4011CA0: _dl_init (dl-init.c:119)
+         n0: 202664 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+  n1: 135043 0xEEF7E84: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 135043 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 135043 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 135043 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+      n1: 135043 0x4011B99: call_init.part.0 (dl-init.c:72)
+       n1: 135043 0x4011CA0: call_init (dl-init.c:30)
+        n1: 135043 0x4011CA0: _dl_init (dl-init.c:119)
+         n0: 135043 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+  n1: 113904 0xEEF7D4D: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 113904 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 113904 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 113904 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+      n1: 113904 0x4011B99: call_init.part.0 (dl-init.c:72)
+       n1: 113904 0x4011CA0: call_init (dl-init.c:30)
+        n1: 113904 0x4011CA0: _dl_init (dl-init.c:119)
+         n0: 113904 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+  n0: 16848 in 4 places, all below massif's threshold (1.00%)
+ n0: 154432 in 149 places, all below massif's threshold (1.00%)
+ n2: 141824 0xF1050BC: ??? (in /usr/lib/x86_64-linux-gnu/libCharLS.so.2.0)
+  n1: 131072 0xF103B88: ??? (in /usr/lib/x86_64-linux-gnu/libCharLS.so.2.0)
+   n1: 131072 0x4011B99: call_init.part.0 (dl-init.c:72)
+    n1: 131072 0x4011CA0: call_init (dl-init.c:30)
+     n1: 131072 0x4011CA0: _dl_init (dl-init.c:119)
+      n0: 131072 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+  n0: 10752 in 3 places, all below massif's threshold (1.00%)
+ n1: 90592 0x122DF61B: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0)
+  n2: 90592 0x122E0DEB: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0)
+   n1: 72656 0xE7E1888: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.27.0)
+    n1: 72656 0xE7B55A4: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.27.0)
+     n1: 72656 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 72656 0x4011CA0: call_init (dl-init.c:30)
+       n1: 72656 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 72656 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+   n0: 17936 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x531FA69: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011CA0: call_init (dl-init.c:30)
+    n1: 72704 0x4011CA0: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+#-----------
+snapshot=3
+#-----------
+time=323827338
+mem_heap_B=4401568
+mem_heap_extra_B=905336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=387505413
+mem_heap_B=12261433
+mem_heap_extra_B=1118255
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=468925762
+mem_heap_B=20431814
+mem_heap_extra_B=1118234
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=555298352
+mem_heap_B=29073413
+mem_heap_extra_B=1150147
+mem_stacks_B=0
+heap_tree=detailed
+n7: 29073413 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 13214018 0x6147E98: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n2: 12855526 0x6160485: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+   n1: 12441902 0x6328D9E: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+    n1: 12441902 0x6334A65: gst_buffer_new_allocate (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+     n1: 12441902 0xAB8C32A: ??? (in /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so.0.1603.0)
+      n1: 12441902 0x6338A76: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+       n1: 12441902 0x6338DCB: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+        n1: 12441902 0x633A477: gst_buffer_pool_acquire_buffer (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+         n1: 12441902 0xAA4C0D3: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+          n1: 12441902 0xAA4AAB7: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+           n1: 12441902 0xAA4A425: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+            n1: 12441902 0x636DFEE: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+             n1: 12441902 0x6370050: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+              n1: 12441902 0x6376E62: gst_pad_push (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+               n1: 12441902 0xAA460A4: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+                n1: 12441902 0x63A51E6: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+                 n1: 12441902 0x616C383: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                  n1: 12441902 0x616BAE0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                   n1: 12441902 0x5480608: start_thread (pthread_create.c:477)
+                    n0: 12441902 0x55BA352: clone (clone.S:95)
+   n0: 413624 in 37 places, all below massif's threshold (1.00%)
+  n0: 358492 in 62 places, all below massif's threshold (1.00%)
+ n1: 10368216 0x4F2F2A8: cv::fastMalloc(unsigned long) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+  n2: 10368216 0x503A330: cv::Mat::create(int, int const*, int) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220872 0x5090CB0: cv::_OutputArray::create(int, int, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220872 0x4F95919: cv::Mat::copyTo(cv::_OutputArray const&) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+     n1: 6220872 0x48F4767: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+      n1: 6220872 0x48C6C67: cv::VideoCapture::retrieve(cv::_OutputArray const&, int) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+       n1: 6220872 0x48C57C3: cv::VideoCapture::read(cv::_OutputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+        n1: 6220872 0x48C552A: cv::VideoCapture::operator>>(cv::Mat&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+         n1: 6220872 0x10C819: captureImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220872 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220872 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220872 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220872 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+              n1: 6220872 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+               n1: 6220872 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+                n1: 6220872 0x5480608: start_thread (pthread_create.c:477)
+                 n0: 6220872 0x55BA352: clone (clone.S:95)
+   n1: 4147344 0x508F7F6: cv::_OutputArray::create(cv::Size_<int>, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 4147344 0x4A0B5A4: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+     n1: 4147344 0x49DB2B7: cv::cvtColor(cv::_InputArray const&, cv::_OutputArray const&, int, int) (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+      n1: 4147344 0x10CADB: processImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+       n1: 4147344 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 4147344 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 4147344 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 4147344 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 4147344 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 4147344 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+             n1: 4147344 0x5480608: start_thread (pthread_create.c:477)
+              n0: 4147344 0x55BA352: clone (clone.S:95)
+ n1: 1650720 0xEEF7734: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1650720 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1650720 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1650720 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1650720 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1650720 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1650720 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1650720 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 1547816 0xEEF7E53: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1547816 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1547816 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1547816 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1547816 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1547816 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1547816 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1547816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 1261423 in 673 places, all below massif's threshold (1.00%)
+ n1: 716708 0xEEF79EC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n0: 716708 in 8 places, all below massif's threshold (1.00%)
+ n1: 314512 0xA140255: CPLMalloc (in /usr/lib/libgdal.so.26.0.4)
+  n0: 314512 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=629796551
+mem_heap_B=29105365
+mem_heap_extra_B=1154507
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=717408738
+mem_heap_B=31365623
+mem_heap_extra_B=1180465
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=784461005
+mem_heap_B=34550409
+mem_heap_extra_B=1445167
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=830555223
+mem_heap_B=34307498
+mem_heap_extra_B=1345750
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=905622324
+mem_heap_B=40581684
+mem_heap_extra_B=1355340
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=994253124
+mem_heap_B=49042485
+mem_heap_extra_B=1381891
+mem_stacks_B=0
+heap_tree=peak
+n7: 49042485 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 22810284 0x4F2F2A8: cv::fastMalloc(unsigned long) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+  n2: 16589232 0x503A330: cv::Mat::create(int, int const*, int) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 10368360 0x508F7F6: cv::_OutputArray::create(cv::Size_<int>, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 10368360 0x4A0B5A4: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+     n1: 10368360 0x49DB2B7: cv::cvtColor(cv::_InputArray const&, cv::_OutputArray const&, int, int) (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+      n1: 10368360 0x10CADB: processImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+       n1: 10368360 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 10368360 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 10368360 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 10368360 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 10368360 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 10368360 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+             n1: 10368360 0x5480608: start_thread (pthread_create.c:477)
+              n0: 10368360 0x55BA352: clone (clone.S:95)
+   n1: 6220872 0x5090CB0: cv::_OutputArray::create(int, int, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220872 0x4F95919: cv::Mat::copyTo(cv::_OutputArray const&) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+     n1: 6220872 0x48F4767: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+      n1: 6220872 0x48C6C67: cv::VideoCapture::retrieve(cv::_OutputArray const&, int) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+       n1: 6220872 0x48C57C3: cv::VideoCapture::read(cv::_OutputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+        n1: 6220872 0x48C552A: cv::VideoCapture::operator>>(cv::Mat&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+         n1: 6220872 0x10C819: captureImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220872 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220872 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220872 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220872 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+              n1: 6220872 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+               n1: 6220872 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+                n1: 6220872 0x5480608: start_thread (pthread_create.c:477)
+                 n0: 6220872 0x55BA352: clone (clone.S:95)
+  n1: 6220940 0x4F5B6FA: cvCreateData (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220940 0x4F5B9F5: cvCreateMat (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220940 0x4894E0F: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+     n1: 6220940 0x48970F3: cvShowImage (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+      n1: 6220940 0x488FCFC: cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+       n1: 6220940 0x10CDA0: displayImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 6220940 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 6220940 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220940 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220940 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220940 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220940 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+              n1: 6220940 0x5480608: start_thread (pthread_create.c:477)
+               n0: 6220940 0x55BA352: clone (clone.S:95)
+  n0: 112 in 1 place, below massif's threshold (1.00%)
+ n2: 19923284 0x6147E98: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n3: 19471117 0x6160485: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+   n1: 18662853 0x6328D9E: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+    n1: 18662853 0x6334A65: gst_buffer_new_allocate (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+     n1: 18662853 0xAB8C32A: ??? (in /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so.0.1603.0)
+      n1: 18662853 0x6338A76: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+       n1: 18662853 0x6338DCB: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+        n1: 18662853 0x633A477: gst_buffer_pool_acquire_buffer (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+         n1: 18662853 0xAA4C0D3: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+          n1: 18662853 0xAA4AAB7: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+           n1: 18662853 0xAA4A425: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+            n1: 18662853 0x636DFEE: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+             n1: 18662853 0x6370050: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+              n1: 18662853 0x6376E62: gst_pad_push (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+               n1: 18662853 0xAA460A4: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+                n1: 18662853 0x63A51E6: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+                 n1: 18662853 0x616C383: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                  n1: 18662853 0x616BAE0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                   n1: 18662853 0x5480608: start_thread (pthread_create.c:477)
+                    n0: 18662853 0x55BA352: clone (clone.S:95)
+   n1: 607888 0x6160AAD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+    n0: 607888 in 70 places, all below massif's threshold (1.00%)
+   n0: 200376 in 51 places, all below massif's threshold (1.00%)
+  n0: 452167 in 109 places, all below massif's threshold (1.00%)
+ n1: 1650720 0xEEF7734: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1650720 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1650720 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1650720 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1650720 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1650720 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1650720 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1650720 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 1557569 in 772 places, all below massif's threshold (1.00%)
+ n1: 1547816 0xEEF7E53: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1547816 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1547816 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1547816 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1547816 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1547816 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1547816 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1547816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 836104 0x6147F3F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n0: 836104 in 48 places, all below massif's threshold (1.00%)
+ n1: 716708 0xEEF79EC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n0: 716708 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=1087371839
+mem_heap_B=40753325
+mem_heap_extra_B=1382211
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1161479282
+mem_heap_B=38679574
+mem_heap_extra_B=1382226
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1260375465
+mem_heap_B=40771821
+mem_heap_extra_B=1384323
+mem_stacks_B=0
+heap_tree=detailed
+n7: 40771821 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 19923597 0x6147E98: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n3: 19471365 0x6160485: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+   n1: 18662853 0x6328D9E: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+    n1: 18662853 0x6334A65: gst_buffer_new_allocate (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+     n1: 18662853 0xAB8C32A: ??? (in /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so.0.1603.0)
+      n1: 18662853 0x6338A76: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+       n1: 18662853 0x6338DCB: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+        n1: 18662853 0x633A477: gst_buffer_pool_acquire_buffer (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+         n1: 18662853 0xAA4C0D3: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+          n1: 18662853 0xAA4AAB7: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+           n1: 18662853 0xAA4A425: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+            n1: 18662853 0x636DFEE: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+             n1: 18662853 0x6370050: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+              n1: 18662853 0x6376E62: gst_pad_push (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+               n1: 18662853 0xAA460A4: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+                n1: 18662853 0x63A51E6: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+                 n1: 18662853 0x616C383: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                  n1: 18662853 0x616BAE0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                   n1: 18662853 0x5480608: start_thread (pthread_create.c:477)
+                    n0: 18662853 0x55BA352: clone (clone.S:95)
+   n1: 607896 0x6160AAD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+    n0: 607896 in 71 places, all below massif's threshold (1.00%)
+   n0: 200616 in 53 places, all below massif's threshold (1.00%)
+  n0: 452232 in 109 places, all below massif's threshold (1.00%)
+ n3: 14515596 0x4F2F2A8: cv::fastMalloc(unsigned long) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+  n2: 8294544 0x503A330: cv::Mat::create(int, int const*, int) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220872 0x5090CB0: cv::_OutputArray::create(int, int, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220872 0x4F95919: cv::Mat::copyTo(cv::_OutputArray const&) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+     n1: 6220872 0x48F4767: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+      n1: 6220872 0x48C6C67: cv::VideoCapture::retrieve(cv::_OutputArray const&, int) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+       n1: 6220872 0x48C57C3: cv::VideoCapture::read(cv::_OutputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+        n1: 6220872 0x48C552A: cv::VideoCapture::operator>>(cv::Mat&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+         n1: 6220872 0x10C819: captureImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220872 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220872 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220872 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220872 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+              n1: 6220872 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+               n1: 6220872 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+                n1: 6220872 0x5480608: start_thread (pthread_create.c:477)
+                 n0: 6220872 0x55BA352: clone (clone.S:95)
+   n1: 2073672 0x508F7F6: cv::_OutputArray::create(cv::Size_<int>, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 2073672 0x4A0B5A4: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+     n1: 2073672 0x49DB2B7: cv::cvtColor(cv::_InputArray const&, cv::_OutputArray const&, int, int) (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+      n1: 2073672 0x10CADB: processImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+       n1: 2073672 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 2073672 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 2073672 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 2073672 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 2073672 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 2073672 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+             n1: 2073672 0x5480608: start_thread (pthread_create.c:477)
+              n0: 2073672 0x55BA352: clone (clone.S:95)
+  n1: 6220940 0x4F5B6FA: cvCreateData (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220940 0x4F5B9F5: cvCreateMat (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220940 0x4894E0F: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+     n1: 6220940 0x48970F3: cvShowImage (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+      n1: 6220940 0x488FCFC: cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+       n1: 6220940 0x10CDA0: displayImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 6220940 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 6220940 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220940 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220940 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220940 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220940 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+              n1: 6220940 0x5480608: start_thread (pthread_create.c:477)
+               n0: 6220940 0x55BA352: clone (clone.S:95)
+  n0: 112 in 1 place, below massif's threshold (1.00%)
+ n1: 1650720 0xEEF7734: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1650720 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1650720 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1650720 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1650720 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1650720 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1650720 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1650720 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 1580240 in 784 places, all below massif's threshold (1.00%)
+ n1: 1547816 0xEEF7E53: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1547816 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1547816 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1547816 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1547816 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1547816 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1547816 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1547816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 837144 0x6147F3F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n0: 837144 in 48 places, all below massif's threshold (1.00%)
+ n1: 716708 0xEEF79EC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n0: 716708 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=1343292510
+mem_heap_B=40843895
+mem_heap_extra_B=1386257
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1424344701
+mem_heap_B=40828101
+mem_heap_extra_B=1384843
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1500298467
+mem_heap_B=38754383
+mem_heap_extra_B=1384977
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1538454931
+mem_heap_B=41641564
+mem_heap_extra_B=1386828
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1620836171
+mem_heap_B=41638646
+mem_heap_extra_B=1386226
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1694885511
+mem_heap_B=39565421
+mem_heap_extra_B=1386523
+mem_stacks_B=0
+heap_tree=detailed
+n8: 39565421 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 19910182 0x6147E98: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n3: 19458765 0x6160485: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+   n1: 18662853 0x6328D9E: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+    n1: 18662853 0x6334A65: gst_buffer_new_allocate (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+     n1: 18662853 0xAB8C32A: ??? (in /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so.0.1603.0)
+      n1: 18662853 0x6338A76: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+       n1: 18662853 0x6338DCB: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+        n1: 18662853 0x633A477: gst_buffer_pool_acquire_buffer (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+         n1: 18662853 0xAA4C0D3: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+          n1: 18662853 0xAA4AAB7: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+           n1: 18662853 0xAA4A425: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+            n1: 18662853 0x636DFEE: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+             n1: 18662853 0x6370050: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+              n1: 18662853 0x6376E62: gst_pad_push (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+               n1: 18662853 0xAA460A4: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+                n1: 18662853 0x63A51E6: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+                 n1: 18662853 0x616C383: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                  n1: 18662853 0x616BAE0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                   n1: 18662853 0x5480608: start_thread (pthread_create.c:477)
+                    n0: 18662853 0x55BA352: clone (clone.S:95)
+   n1: 595072 0x6160AAD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+    n0: 595072 in 73 places, all below massif's threshold (1.00%)
+   n0: 200840 in 54 places, all below massif's threshold (1.00%)
+  n0: 451417 in 110 places, all below massif's threshold (1.00%)
+ n3: 12441924 0x4F2F2A8: cv::fastMalloc(unsigned long) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+  n1: 6220940 0x4F5B6FA: cvCreateData (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220940 0x4F5B9F5: cvCreateMat (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220940 0x4894E0F: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+     n1: 6220940 0x48970F3: cvShowImage (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+      n1: 6220940 0x488FCFC: cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+       n1: 6220940 0x10CDA0: displayImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 6220940 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 6220940 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220940 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220940 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220940 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220940 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+              n1: 6220940 0x5480608: start_thread (pthread_create.c:477)
+               n0: 6220940 0x55BA352: clone (clone.S:95)
+  n2: 6220872 0x503A330: cv::Mat::create(int, int const*, int) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220872 0x5090CB0: cv::_OutputArray::create(int, int, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220872 0x4F95919: cv::Mat::copyTo(cv::_OutputArray const&) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+     n1: 6220872 0x48F4767: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+      n1: 6220872 0x48C6C67: cv::VideoCapture::retrieve(cv::_OutputArray const&, int) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+       n1: 6220872 0x48C57C3: cv::VideoCapture::read(cv::_OutputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+        n1: 6220872 0x48C552A: cv::VideoCapture::operator>>(cv::Mat&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+         n1: 6220872 0x10C819: captureImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220872 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220872 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220872 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220872 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+              n1: 6220872 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+               n1: 6220872 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+                n1: 6220872 0x5480608: start_thread (pthread_create.c:477)
+                 n0: 6220872 0x55BA352: clone (clone.S:95)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 112 in 1 place, below massif's threshold (1.00%)
+ n0: 1668655 in 824 places, all below massif's threshold (1.00%)
+ n1: 1650720 0xEEF7734: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1650720 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1650720 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1650720 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1650720 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1650720 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1650720 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1650720 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 1547816 0xEEF7E53: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1547816 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1547816 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1547816 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1547816 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1547816 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1547816 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1547816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 842984 0x6147F3F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n0: 842984 in 48 places, all below massif's threshold (1.00%)
+ n1: 786432 0x5F8307A: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+  n1: 786432 0x5FE9084: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+   n1: 786432 0x5FE9A07: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+    n1: 786432 0x5FE9AA0: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+     n1: 786432 0x5FBCF6A: cairo_surface_create_similar_image (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+      n1: 786432 0x5E704FF: gdk_cairo_set_source_pixbuf (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+       n1: 786432 0x4893683: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+        n1: 786432 0x5A7434E: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+         n1: 786432 0x5A1CC32: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+          n1: 786432 0x60A4A55: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+           n1: 786432 0x60C2DF0: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+            n1: 786432 0x60C40F2: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+             n1: 786432 0x5A29BD1: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+              n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+               n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                n1: 786432 0x57BAEB7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                 n1: 786432 0x580F490: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                  n1: 786432 0x581433B: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                   n1: 786432 0x57BD7D4: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                    n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                     n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                      n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                       n1: 786432 0x5A38534: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                        n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                         n1: 786432 0x5A32DBF: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                          n1: 786432 0x58DC163: gtk_main_do_event (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                           n1: 786432 0x5E7AF68: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                            n1: 786432 0x5E8C2B0: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                             n1: 786432 0x5E8D484: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                              n0: 786432 0x5E8D643: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+ n1: 716708 0xEEF79EC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n0: 716708 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=1806550007
+mem_heap_B=39565315
+mem_heap_extra_B=1386485
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1844252467
+mem_heap_B=41643309
+mem_heap_extra_B=1386979
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1929649990
+mem_heap_B=41693412
+mem_heap_extra_B=1392788
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2012177301
+mem_heap_B=41692620
+mem_heap_extra_B=1392716
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2087077375
+mem_heap_B=39619044
+mem_heap_extra_B=1392692
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2169776573
+mem_heap_B=39619351
+mem_heap_extra_B=1392793
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2252383713
+mem_heap_B=39619279
+mem_heap_extra_B=1392761
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2364064054
+mem_heap_B=39618643
+mem_heap_extra_B=1392501
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2475745901
+mem_heap_B=39618811
+mem_heap_extra_B=1392517
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2587447757
+mem_heap_B=39619003
+mem_heap_extra_B=1392581
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2625249077
+mem_heap_B=41697021
+mem_heap_extra_B=1393171
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2736866392
+mem_heap_B=41697213
+mem_heap_extra_B=1393187
+mem_stacks_B=0
+heap_tree=detailed
+n8: 41697213 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 19930494 0x6147E98: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n3: 19474957 0x6160485: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+   n1: 18662853 0x6328D9E: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+    n1: 18662853 0x6334A65: gst_buffer_new_allocate (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+     n1: 18662853 0xAB8C32A: ??? (in /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so.0.1603.0)
+      n1: 18662853 0x6338A76: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+       n1: 18662853 0x6338DCB: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+        n1: 18662853 0x633A477: gst_buffer_pool_acquire_buffer (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+         n1: 18662853 0xAA4C0D3: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+          n1: 18662853 0xAA4AAB7: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+           n1: 18662853 0xAA4A425: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+            n1: 18662853 0x636DFEE: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+             n1: 18662853 0x6370050: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+              n1: 18662853 0x6376E62: gst_pad_push (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+               n1: 18662853 0xAA460A4: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+                n1: 18662853 0x63A51E6: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+                 n1: 18662853 0x616C383: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                  n1: 18662853 0x616BAE0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                   n1: 18662853 0x5480608: start_thread (pthread_create.c:477)
+                    n0: 18662853 0x55BA352: clone (clone.S:95)
+   n1: 608816 0x6160AAD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+    n0: 608816 in 81 places, all below massif's threshold (1.00%)
+   n0: 203288 in 56 places, all below massif's threshold (1.00%)
+  n0: 455537 in 111 places, all below massif's threshold (1.00%)
+ n3: 14515596 0x4F2F2A8: cv::fastMalloc(unsigned long) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+  n2: 8294544 0x503A330: cv::Mat::create(int, int const*, int) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220872 0x5090CB0: cv::_OutputArray::create(int, int, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220872 0x4F95919: cv::Mat::copyTo(cv::_OutputArray const&) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+     n1: 6220872 0x48F4767: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+      n1: 6220872 0x48C6C67: cv::VideoCapture::retrieve(cv::_OutputArray const&, int) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+       n1: 6220872 0x48C57C3: cv::VideoCapture::read(cv::_OutputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+        n1: 6220872 0x48C552A: cv::VideoCapture::operator>>(cv::Mat&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+         n1: 6220872 0x10C819: captureImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220872 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220872 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220872 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220872 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+              n1: 6220872 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+               n1: 6220872 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+                n1: 6220872 0x5480608: start_thread (pthread_create.c:477)
+                 n0: 6220872 0x55BA352: clone (clone.S:95)
+   n1: 2073672 0x508F7F6: cv::_OutputArray::create(cv::Size_<int>, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 2073672 0x4A0B5A4: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+     n1: 2073672 0x49DB2B7: cv::cvtColor(cv::_InputArray const&, cv::_OutputArray const&, int, int) (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+      n1: 2073672 0x10CADB: processImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+       n1: 2073672 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 2073672 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 2073672 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 2073672 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 2073672 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 2073672 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+             n1: 2073672 0x5480608: start_thread (pthread_create.c:477)
+              n0: 2073672 0x55BA352: clone (clone.S:95)
+  n1: 6220940 0x4F5B6FA: cvCreateData (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220940 0x4F5B9F5: cvCreateMat (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220940 0x4894E0F: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+     n1: 6220940 0x48970F3: cvShowImage (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+      n1: 6220940 0x488FCFC: cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+       n1: 6220940 0x10CDA0: displayImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 6220940 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 6220940 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220940 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220940 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220940 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220940 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+              n1: 6220940 0x5480608: start_thread (pthread_create.c:477)
+               n0: 6220940 0x55BA352: clone (clone.S:95)
+  n0: 112 in 1 place, below massif's threshold (1.00%)
+ n0: 1704271 in 826 places, all below massif's threshold (1.00%)
+ n1: 1650720 0xEEF7734: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1650720 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1650720 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1650720 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1650720 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1650720 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1650720 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1650720 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 1547816 0xEEF7E53: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1547816 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1547816 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1547816 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1547816 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1547816 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1547816 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1547816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 845176 0x6147F3F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n0: 845176 in 50 places, all below massif's threshold (1.00%)
+ n1: 786432 0x5F8307A: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+  n1: 786432 0x5FE9084: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+   n1: 786432 0x5FE9A07: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+    n1: 786432 0x5FE9AA0: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+     n1: 786432 0x5FBCF6A: cairo_surface_create_similar_image (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+      n1: 786432 0x5E704FF: gdk_cairo_set_source_pixbuf (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+       n1: 786432 0x4893683: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+        n1: 786432 0x5A7434E: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+         n1: 786432 0x5A1CC32: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+          n1: 786432 0x60A4A55: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+           n1: 786432 0x60C2DF0: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+            n1: 786432 0x60C40F2: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+             n1: 786432 0x5A29BD1: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+              n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+               n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                n1: 786432 0x57BAEB7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                 n1: 786432 0x580F490: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                  n1: 786432 0x581433B: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                   n1: 786432 0x57BD7D4: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                    n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                     n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                      n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                       n1: 786432 0x5A38534: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                        n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                         n1: 786432 0x5A32DBF: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                          n1: 786432 0x58DC163: gtk_main_do_event (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                           n1: 786432 0x5E7AF68: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                            n1: 786432 0x5E8C2B0: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                             n1: 786432 0x5E8D484: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                              n0: 786432 0x5E8D643: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+ n1: 716708 0xEEF79EC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n0: 716708 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=2810862631
+mem_heap_B=39619387
+mem_heap_extra_B=1392693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2848579782
+mem_heap_B=41697405
+mem_heap_extra_B=1393219
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=2960237209
+mem_heap_B=41697597
+mem_heap_extra_B=1393283
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3034230847
+mem_heap_B=39619771
+mem_heap_extra_B=1392773
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3145924749
+mem_heap_B=39619963
+mem_heap_extra_B=1392821
+mem_stacks_B=0
+heap_tree=detailed
+n8: 39619963 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 19930692 0x6147E98: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n3: 19475181 0x6160485: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+   n1: 18662853 0x6328D9E: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+    n1: 18662853 0x6334A65: gst_buffer_new_allocate (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+     n1: 18662853 0xAB8C32A: ??? (in /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so.0.1603.0)
+      n1: 18662853 0x6338A76: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+       n1: 18662853 0x6338DCB: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+        n1: 18662853 0x633A477: gst_buffer_pool_acquire_buffer (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+         n1: 18662853 0xAA4C0D3: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+          n1: 18662853 0xAA4AAB7: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+           n1: 18662853 0xAA4A425: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+            n1: 18662853 0x636DFEE: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+             n1: 18662853 0x6370050: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+              n1: 18662853 0x6376E62: gst_pad_push (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+               n1: 18662853 0xAA460A4: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+                n1: 18662853 0x63A51E6: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+                 n1: 18662853 0x616C383: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                  n1: 18662853 0x616BAE0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                   n1: 18662853 0x5480608: start_thread (pthread_create.c:477)
+                    n0: 18662853 0x55BA352: clone (clone.S:95)
+   n1: 609168 0x6160AAD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+    n0: 609168 in 81 places, all below massif's threshold (1.00%)
+   n0: 203160 in 56 places, all below massif's threshold (1.00%)
+  n0: 455511 in 111 places, all below massif's threshold (1.00%)
+ n3: 12441924 0x4F2F2A8: cv::fastMalloc(unsigned long) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+  n1: 6220940 0x4F5B6FA: cvCreateData (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220940 0x4F5B9F5: cvCreateMat (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220940 0x4894E0F: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+     n1: 6220940 0x48970F3: cvShowImage (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+      n1: 6220940 0x488FCFC: cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+       n1: 6220940 0x10CDA0: displayImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 6220940 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 6220940 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220940 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220940 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220940 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220940 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+              n1: 6220940 0x5480608: start_thread (pthread_create.c:477)
+               n0: 6220940 0x55BA352: clone (clone.S:95)
+  n2: 6220872 0x503A330: cv::Mat::create(int, int const*, int) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220872 0x5090CB0: cv::_OutputArray::create(int, int, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220872 0x4F95919: cv::Mat::copyTo(cv::_OutputArray const&) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+     n1: 6220872 0x48F4767: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+      n1: 6220872 0x48C6C67: cv::VideoCapture::retrieve(cv::_OutputArray const&, int) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+       n1: 6220872 0x48C57C3: cv::VideoCapture::read(cv::_OutputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+        n1: 6220872 0x48C552A: cv::VideoCapture::operator>>(cv::Mat&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+         n1: 6220872 0x10C819: captureImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220872 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220872 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220872 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220872 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+              n1: 6220872 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+               n1: 6220872 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+                n1: 6220872 0x5480608: start_thread (pthread_create.c:477)
+                 n0: 6220872 0x55BA352: clone (clone.S:95)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 112 in 1 place, below massif's threshold (1.00%)
+ n0: 1700607 in 826 places, all below massif's threshold (1.00%)
+ n1: 1650720 0xEEF7734: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1650720 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1650720 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1650720 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1650720 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1650720 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1650720 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1650720 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 1547816 0xEEF7E53: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1547816 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1547816 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1547816 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1547816 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1547816 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1547816 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1547816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 845064 0x6147F3F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n0: 845064 in 50 places, all below massif's threshold (1.00%)
+ n1: 786432 0x5F8307A: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+  n1: 786432 0x5FE9084: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+   n1: 786432 0x5FE9A07: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+    n1: 786432 0x5FE9AA0: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+     n1: 786432 0x5FBCF6A: cairo_surface_create_similar_image (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+      n1: 786432 0x5E704FF: gdk_cairo_set_source_pixbuf (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+       n1: 786432 0x4893683: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+        n1: 786432 0x5A7434E: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+         n1: 786432 0x5A1CC32: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+          n1: 786432 0x60A4A55: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+           n1: 786432 0x60C2DF0: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+            n1: 786432 0x60C40F2: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+             n1: 786432 0x5A29BD1: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+              n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+               n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                n1: 786432 0x57BAEB7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                 n1: 786432 0x580F490: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                  n1: 786432 0x581433B: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                   n1: 786432 0x57BD7D4: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                    n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                     n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                      n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                       n1: 786432 0x5A38534: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                        n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                         n1: 786432 0x5A32DBF: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                          n1: 786432 0x58DC163: gtk_main_do_event (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                           n1: 786432 0x5E7AF68: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                            n1: 786432 0x5E8C2B0: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                             n1: 786432 0x5E8D484: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                              n0: 786432 0x5E8D643: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+ n1: 716708 0xEEF79EC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n0: 716708 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=3257607453
+mem_heap_B=39620155
+mem_heap_extra_B=1392885
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3369278131
+mem_heap_B=39620347
+mem_heap_extra_B=1392917
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3480969523
+mem_heap_B=39620539
+mem_heap_extra_B=1392981
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=3518750486
+mem_heap_B=41698557
+mem_heap_extra_B=1393491
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=3630374611
+mem_heap_B=41698749
+mem_heap_extra_B=1393571
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=3742054903
+mem_heap_B=41698845
+mem_heap_extra_B=1393595
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=3853702653
+mem_heap_B=41698941
+mem_heap_extra_B=1393635
+mem_stacks_B=0
+heap_tree=detailed
+n8: 41698941 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 19931742 0x6147E98: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n3: 19475965 0x6160485: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+   n1: 18662853 0x6328D9E: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+    n1: 18662853 0x6334A65: gst_buffer_new_allocate (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+     n1: 18662853 0xAB8C32A: ??? (in /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so.0.1603.0)
+      n1: 18662853 0x6338A76: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+       n1: 18662853 0x6338DCB: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+        n1: 18662853 0x633A477: gst_buffer_pool_acquire_buffer (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+         n1: 18662853 0xAA4C0D3: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+          n1: 18662853 0xAA4AAB7: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+           n1: 18662853 0xAA4A425: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+            n1: 18662853 0x636DFEE: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+             n1: 18662853 0x6370050: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+              n1: 18662853 0x6376E62: gst_pad_push (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+               n1: 18662853 0xAA460A4: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+                n1: 18662853 0x63A51E6: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+                 n1: 18662853 0x616C383: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                  n1: 18662853 0x616BAE0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                   n1: 18662853 0x5480608: start_thread (pthread_create.c:477)
+                    n0: 18662853 0x55BA352: clone (clone.S:95)
+   n1: 609584 0x6160AAD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+    n0: 609584 in 81 places, all below massif's threshold (1.00%)
+   n0: 203528 in 56 places, all below massif's threshold (1.00%)
+  n0: 455777 in 111 places, all below massif's threshold (1.00%)
+ n3: 14515596 0x4F2F2A8: cv::fastMalloc(unsigned long) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+  n2: 8294544 0x503A330: cv::Mat::create(int, int const*, int) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220872 0x5090CB0: cv::_OutputArray::create(int, int, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220872 0x4F95919: cv::Mat::copyTo(cv::_OutputArray const&) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+     n1: 6220872 0x48F4767: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+      n1: 6220872 0x48C6C67: cv::VideoCapture::retrieve(cv::_OutputArray const&, int) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+       n1: 6220872 0x48C57C3: cv::VideoCapture::read(cv::_OutputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+        n1: 6220872 0x48C552A: cv::VideoCapture::operator>>(cv::Mat&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+         n1: 6220872 0x10C819: captureImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220872 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220872 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220872 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220872 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+              n1: 6220872 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+               n1: 6220872 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+                n1: 6220872 0x5480608: start_thread (pthread_create.c:477)
+                 n0: 6220872 0x55BA352: clone (clone.S:95)
+   n1: 2073672 0x508F7F6: cv::_OutputArray::create(cv::Size_<int>, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 2073672 0x4A0B5A4: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+     n1: 2073672 0x49DB2B7: cv::cvtColor(cv::_InputArray const&, cv::_OutputArray const&, int, int) (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+      n1: 2073672 0x10CADB: processImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+       n1: 2073672 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 2073672 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 2073672 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 2073672 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 2073672 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 2073672 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+             n1: 2073672 0x5480608: start_thread (pthread_create.c:477)
+              n0: 2073672 0x55BA352: clone (clone.S:95)
+  n1: 6220940 0x4F5B6FA: cvCreateData (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220940 0x4F5B9F5: cvCreateMat (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220940 0x4894E0F: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+     n1: 6220940 0x48970F3: cvShowImage (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+      n1: 6220940 0x488FCFC: cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+       n1: 6220940 0x10CDA0: displayImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 6220940 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 6220940 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220940 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220940 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220940 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220940 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+              n1: 6220940 0x5480608: start_thread (pthread_create.c:477)
+               n0: 6220940 0x55BA352: clone (clone.S:95)
+  n0: 112 in 1 place, below massif's threshold (1.00%)
+ n0: 1704591 in 826 places, all below massif's threshold (1.00%)
+ n1: 1650720 0xEEF7734: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1650720 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1650720 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1650720 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1650720 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1650720 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1650720 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1650720 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 1547816 0xEEF7E53: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1547816 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1547816 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1547816 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1547816 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1547816 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1547816 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1547816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 845336 0x6147F3F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n0: 845336 in 50 places, all below massif's threshold (1.00%)
+ n1: 786432 0x5F8307A: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+  n1: 786432 0x5FE9084: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+   n1: 786432 0x5FE9A07: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+    n1: 786432 0x5FE9AA0: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+     n1: 786432 0x5FBCF6A: cairo_surface_create_similar_image (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+      n1: 786432 0x5E704FF: gdk_cairo_set_source_pixbuf (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+       n1: 786432 0x4893683: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+        n1: 786432 0x5A7434E: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+         n1: 786432 0x5A1CC32: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+          n1: 786432 0x60A4A55: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+           n1: 786432 0x60C2DF0: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+            n1: 786432 0x60C40F2: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+             n1: 786432 0x5A29BD1: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+              n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+               n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                n1: 786432 0x57BAEB7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                 n1: 786432 0x580F490: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                  n1: 786432 0x581433B: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                   n1: 786432 0x57BD7D4: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                    n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                     n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                      n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                       n1: 786432 0x5A38534: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                        n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                         n1: 786432 0x5A32DBF: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                          n1: 786432 0x58DC163: gtk_main_do_event (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                           n1: 786432 0x5E7AF68: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                            n1: 786432 0x5E8C2B0: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                             n1: 786432 0x5E8D484: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                              n0: 786432 0x5E8D643: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+ n1: 716708 0xEEF79EC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n0: 716708 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=3927710171
+mem_heap_B=39621115
+mem_heap_extra_B=1393173
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3965432584
+mem_heap_B=41699037
+mem_heap_extra_B=1393691
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=4077120468
+mem_heap_B=41699133
+mem_heap_extra_B=1393683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=4159679859
+mem_heap_B=41694883
+mem_heap_extra_B=1393261
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=4262776149
+mem_heap_B=39621403
+mem_heap_extra_B=1393277
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=4300563366
+mem_heap_B=41699837
+mem_heap_extra_B=1393899
+mem_stacks_B=0
+heap_tree=detailed
+n8: 41699837 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 19932246 0x6147E98: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n3: 19476309 0x6160485: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+   n1: 18662853 0x6328D9E: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+    n1: 18662853 0x6334A65: gst_buffer_new_allocate (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+     n1: 18662853 0xAB8C32A: ??? (in /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so.0.1603.0)
+      n1: 18662853 0x6338A76: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+       n1: 18662853 0x6338DCB: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+        n1: 18662853 0x633A477: gst_buffer_pool_acquire_buffer (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+         n1: 18662853 0xAA4C0D3: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+          n1: 18662853 0xAA4AAB7: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+           n1: 18662853 0xAA4A425: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+            n1: 18662853 0x636DFEE: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+             n1: 18662853 0x6370050: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+              n1: 18662853 0x6376E62: gst_pad_push (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+               n1: 18662853 0xAA460A4: ??? (in /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0.1603.0)
+                n1: 18662853 0x63A51E6: ??? (in /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0.1603.0)
+                 n1: 18662853 0x616C383: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                  n1: 18662853 0x616BAE0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+                   n1: 18662853 0x5480608: start_thread (pthread_create.c:477)
+                    n0: 18662853 0x55BA352: clone (clone.S:95)
+   n1: 609808 0x6160AAD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+    n0: 609808 in 81 places, all below massif's threshold (1.00%)
+   n0: 203648 in 56 places, all below massif's threshold (1.00%)
+  n0: 455937 in 111 places, all below massif's threshold (1.00%)
+ n3: 14515596 0x4F2F2A8: cv::fastMalloc(unsigned long) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+  n2: 8294544 0x503A330: cv::Mat::create(int, int const*, int) (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220872 0x5090CB0: cv::_OutputArray::create(int, int, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220872 0x4F95919: cv::Mat::copyTo(cv::_OutputArray const&) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+     n1: 6220872 0x48F4767: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+      n1: 6220872 0x48C6C67: cv::VideoCapture::retrieve(cv::_OutputArray const&, int) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+       n1: 6220872 0x48C57C3: cv::VideoCapture::read(cv::_OutputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+        n1: 6220872 0x48C552A: cv::VideoCapture::operator>>(cv::Mat&) (in /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0)
+         n1: 6220872 0x10C819: captureImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220872 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220872 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220872 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220872 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+              n1: 6220872 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+               n1: 6220872 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+                n1: 6220872 0x5480608: start_thread (pthread_create.c:477)
+                 n0: 6220872 0x55BA352: clone (clone.S:95)
+   n1: 2073672 0x508F7F6: cv::_OutputArray::create(cv::Size_<int>, int, int, bool, cv::_OutputArray::DepthMask) const (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 2073672 0x4A0B5A4: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+     n1: 2073672 0x49DB2B7: cv::cvtColor(cv::_InputArray const&, cv::_OutputArray const&, int, int) (in /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0)
+      n1: 2073672 0x10CADB: processImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+       n1: 2073672 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 2073672 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 2073672 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 2073672 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 2073672 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 2073672 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+             n1: 2073672 0x5480608: start_thread (pthread_create.c:477)
+              n0: 2073672 0x55BA352: clone (clone.S:95)
+  n1: 6220940 0x4F5B6FA: cvCreateData (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+   n1: 6220940 0x4F5B9F5: cvCreateMat (in /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0)
+    n1: 6220940 0x4894E0F: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+     n1: 6220940 0x48970F3: cvShowImage (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+      n1: 6220940 0x488FCFC: cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&) (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+       n1: 6220940 0x10CDA0: displayImage() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+        n1: 6220940 0x1117B3: void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+         n1: 6220940 0x11174B: std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+          n1: 6220940 0x1116DD: void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+           n1: 6220940 0x11169A: std::thread::_Invoker<std::tuple<void (*)()> >::operator()() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+            n1: 6220940 0x110B45: std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() (in /home/atmadeep/projects/vimaan_assessment/build/bin/image_pipeline_app)
+             n1: 6220940 0x534FDF3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+              n1: 6220940 0x5480608: start_thread (pthread_create.c:477)
+               n0: 6220940 0x55BA352: clone (clone.S:95)
+  n0: 112 in 1 place, below massif's threshold (1.00%)
+ n0: 1704919 in 826 places, all below massif's threshold (1.00%)
+ n1: 1650720 0xEEF7734: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1650720 0xEEF5FAC: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1650720 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1650720 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1650720 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1650720 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1650720 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1650720 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 1547816 0xEEF7E53: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n1: 1547816 0xEEF5FB5: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+   n1: 1547816 0xEEF97C8: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+    n1: 1547816 0xEEF5D03: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+     n1: 1547816 0x4011B99: call_init.part.0 (dl-init.c:72)
+      n1: 1547816 0x4011CA0: call_init (dl-init.c:30)
+       n1: 1547816 0x4011CA0: _dl_init (dl-init.c:119)
+        n0: 1547816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 845400 0x6147F3F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.6400.6)
+  n0: 845400 in 50 places, all below massif's threshold (1.00%)
+ n1: 786432 0x5F8307A: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+  n1: 786432 0x5FE9084: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+   n1: 786432 0x5FE9A07: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+    n1: 786432 0x5FE9AA0: ??? (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+     n1: 786432 0x5FBCF6A: cairo_surface_create_similar_image (in /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0)
+      n1: 786432 0x5E704FF: gdk_cairo_set_source_pixbuf (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+       n1: 786432 0x4893683: ??? (in /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0)
+        n1: 786432 0x5A7434E: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+         n1: 786432 0x5A1CC32: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+          n1: 786432 0x60A4A55: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+           n1: 786432 0x60C2DF0: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+            n1: 786432 0x60C40F2: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.6)
+             n1: 786432 0x5A29BD1: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+              n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+               n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                n1: 786432 0x57BAEB7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                 n1: 786432 0x580F490: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                  n1: 786432 0x581433B: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                   n1: 786432 0x57BD7D4: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                    n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                     n1: 786432 0x580A11A: gtk_container_propagate_draw (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                      n1: 786432 0x580A1EC: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                       n1: 786432 0x5A38534: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                        n1: 786432 0x5A29A73: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                         n1: 786432 0x5A32DBF: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                          n1: 786432 0x58DC163: gtk_main_do_event (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.16)
+                           n1: 786432 0x5E7AF68: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                            n1: 786432 0x5E8C2B0: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                             n1: 786432 0x5E8D484: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+                              n0: 786432 0x5E8D643: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.16)
+ n1: 716708 0xEEF79EC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.5)
+  n0: 716708 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=4374541750
+mem_heap_B=39622011
+mem_heap_extra_B=1393437
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=4457174297
+mem_heap_B=39622053
+mem_heap_extra_B=1393531
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=4494954942
+mem_heap_B=41699445
+mem_heap_extra_B=1393867
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=4568868124
+mem_heap_B=39621619
+mem_heap_extra_B=1393389
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=4606643777
+mem_heap_B=41699517
+mem_heap_extra_B=1393907
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=4680584549
+mem_heap_B=39621691
+mem_heap_extra_B=1393429
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=4769008196
+mem_heap_B=33427561
+mem_heap_extra_B=1401231
+mem_stacks_B=0
+heap_tree=empty

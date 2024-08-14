@@ -59,3 +59,22 @@ make all
   - ```bash
     python3 bin/run_image_pipeline.py
     ```
+
+# Profiling the app and pipeline
+
+- C++ binary has been profile using valgrind.
+- ```bash
+  valgrind --tool=massif ./image_pipeline_app
+  ```
+- A copy of the generated profile is available in `./profile_data` and can be visualised using `massif_visualizer`. This app can be found on [snap store](https://snapcraft.io/massif-visualizer)
+
+  - ```bash
+    cd profile_data
+    massif-visualizer massif.out.<pid>
+    ```
+- To profile the python pipeline:
+
+  - ```bash
+    python3 run_image_pipeline.py -p 1
+    ```
+  - The profiling here has been done using `cProfile`
