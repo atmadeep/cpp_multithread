@@ -62,19 +62,34 @@ make all
 
 # Profiling the app and pipeline
 
-- C++ binary has been profile using valgrind.
+- Build and run the C++ binary with time profiling support:
+- Only profiling support in C++ source is added with this option. You cannot build the profiling enabled binary as an installable module for python, as it will add to the overhead, and impact the profiling done in python
 - ```bash
-  valgrind --tool=massif ./image_pipeline_app
+  cmake -DENABLE_PROFILING=ON --build ../
+  bin/image_pipeline_app
   ```
-- A copy of the generated profile is available in `./profile_data` and can be visualised using `massif_visualizer`. This app can be found on [snap store](https://snapcraft.io/massif-visualizer)
+- This will give you the `throughput` and `latency` of the pipleine and the `processImage()` function seperately. This is done in order to be able to track how much the optimizations are actually performing with respect to processing algorithm.
+- C++ binary has been profile using heaptrack.
+- ```bash
+  heaptrack bin/image_pipeline_app
+  heaptrack_gui heaptrack_image_pipeline.*
+  ```
+- A copy of the generated profile is available in `./profile_data` and can be visualised using `heaptrack_gui`. This app can be  installed using `sudo apt install heaptrack-gui`
+- ```bash
+  cd profile_data
+  heaptrack_gui heaptrack_image_pipeline.*
+  ```
 
-  - ```bash
-    cd profile_data
-    massif-visualizer massif.out.<pid>
-    ```
+  - A call graph is also added (see `profile_data/output.pdf`) for more. It's generated using `google-perfools`.
 - To profile the python pipeline:
+- ```bash
+      python3 run_image_pipeline.py -p 1
+      # visualize the pstats file
+      snakeviz profile_output.pstats
+  ```
 
-  - ```bash
-    python3 run_image_pipeline.py -p 1
-    ```
-  - The profiling here has been done using `cProfile`
+
+
+
+- The profiling here has been done using `cProfile` and the functions run in parallel.
+

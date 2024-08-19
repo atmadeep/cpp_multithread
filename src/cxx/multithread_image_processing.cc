@@ -4,6 +4,10 @@
 #include <queue>
 #include <thread>
 
+#if ENABLE_PROFILING
+#include <chrono>
+#endif
+
 // INFO Conditional compilation for python module
 #if BUILD_PYTHON_MODULE
 #include <pybind11/pybind11.h>
@@ -22,14 +26,17 @@ std::condition_variable capture_CondVar;
 std::condition_variable process_CondVar;
 
 bool done = false;
+int total_frames = 0;
 
 void captureImage() {
   // INFO Open default camera @ id = 0
   cv::VideoCapture cap(0);
   cv::Mat frame;
+
   // INFO Return error if camera is not opened.
   if (!cap.isOpened()) {
     std::cerr << "Error: Could not open camera." << std::endl;
+    done = true;
     return;
   }
 
@@ -48,11 +55,15 @@ void captureImage() {
     } // INFO The lock_guard is released as soon as it goes out of scope.
 
     capture_CondVar.notify_one();
-    std::this_thread::sleep_for(std::chrono::milliseconds(1));
+    // std::this_thread::_sleep_for(std::chrono::milliseconds(1));
   }
 }
 
 void processImage() {
+#if ENABLE_PROFILING
+  auto t1 = std::chrono::high_resolution_clock::now();
+#endif
+
   while (!done) {
     cv::Mat frame;
 
@@ -77,11 +88,24 @@ void processImage() {
     } // INFO The lock_guard is released as soon as it goes out of scope.
 
     process_CondVar.notify_one();
+#if ENABLE_PROFILING
+    total_frames += 1;
+#endif
   }
+#if ENABLE_PROFILING
+  auto t2 = std::chrono::high_resolution_clock::now();
+  std::chrono::duration<double> time_taken = t2 - t1;
+  double processing_latency = time_taken.count() / total_frames;
+  double processing_throughput = 1 / processing_latency;
+  std::cout << "processing function's throughput = " << processing_throughput
+            << " Frames per second " << std::endl;
+  std::cout << "processing function's latency = " << processing_latency
+            << " Seconds per frame " << std::endl;
+#endif
 }
 
 void displayImage() {
-  int k =0;
+  int k = 0;
   while (!done) {
     cv::Mat frame;
 
@@ -97,8 +121,8 @@ void displayImage() {
     }
 
     cv::imshow("Processed Image", frame);
-    int k = cv::waitKey(1);
-    if ( k == 27) { // Exit on ESC key
+    k = cv::waitKey(1);
+    if (k == 27) { // Exit on ESC key
       done = true;
       break;
     }
@@ -122,7 +146,7 @@ int pipeline_function() {
 }
 
 #if BUILD_PYTHON_MODULE
-#pragma message ("Compiling the pybind11 module")
+#pragma message("Compiling the pybind11 module")
 PYBIND11_MODULE(image_pipeline, m) {
   m.doc() = R"pbdoc(
             PyBind11 binding for multithreaded image processing and display function
@@ -140,6 +164,19 @@ PYBIND11_MODULE(image_pipeline, m) {
 }
 #endif
 int main() {
+#if ENABLE_PROFILING
+  auto t1 = std::chrono::high_resolution_clock::now();
   pipeline_function();
+  auto t2 = std::chrono::high_resolution_clock::now();
+  std::chrono::duration<double> total_time_take = t2 - t1;
+  double latency = total_time_take.count() / total_frames;
+  double throughput = 1 / latency;
+  std::cout << "Pipeline Throughput = " << throughput << " Frames per second "
+            << std::endl;
+  std::cout << "Pipeline Latency = " << latency << " Seconds per frame "
+            << std::endl;
+#else
+  pipeline_function();
+#endif
   return 0;
 }
