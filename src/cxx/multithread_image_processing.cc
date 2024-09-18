@@ -61,6 +61,7 @@ void captureImage() {
 
 void processImage() {
 #if ENABLE_PROFILING
+  // Record the start time for profiling
   auto t1 = std::chrono::high_resolution_clock::now();
 #endif
 
@@ -93,10 +94,19 @@ void processImage() {
 #endif
   }
 #if ENABLE_PROFILING
+  // Record the end time for profiling
   auto t2 = std::chrono::high_resolution_clock::now();
+  
+  // Calculate the total time taken for processing
   std::chrono::duration<double> time_taken = t2 - t1;
+  
+  // Calculate the latency (time taken per frame)
   double processing_latency = time_taken.count() / total_frames;
+  
+  // Calculate the throughput (frames processed per second)
   double processing_throughput = 1 / processing_latency;
+  
+  // Output the profiling results
   std::cout << "processing function's throughput = " << processing_throughput
             << " Frames per second " << std::endl;
   std::cout << "processing function's latency = " << processing_latency
