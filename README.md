@@ -1,3 +1,11 @@
+# Planned updates
+
+### As I'm working on becoming proeficient in cpp with various ML and CV frameworks, I plan to scale this project as a real time learning for everyone. Below are the planend updates:
+
+- [ ] Working with GPU acceleration (preferably in docker over native)
+- [ ] Replacing grayscale conversion with something more complex (object detection/segmentation/Pose estimation + tracking) and scaling to use max threads.
+- [ ] Working with more performance measurement tools.
+
 # Mandatory setup
 
 1. Create a python3 virtual environment in the source directory.
@@ -79,7 +87,6 @@ make all
   cd profile_data
   heaptrack_gui heaptrack_image_pipeline.*
   ```
-
   - A call graph is also added (see `profile_data/output.pdf`) for more. It's generated using `google-perfools`.
 - To profile the python pipeline:
 - ```bash
@@ -87,9 +94,4 @@ make all
       # visualize the pstats file
       snakeviz profile_output.pstats
   ```
-
-
-
-
 - The profiling here has been done using `cProfile` and the functions run in parallel.
-
